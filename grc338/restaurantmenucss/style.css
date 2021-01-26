@@ -87,17 +87,17 @@ ul {
 h4 {
     font-family: sans-serif;
     text-transform: uppercase;
-    margin-right: .4em;
+    margin-right: 1em;
     margin-bottom: .4em;
-    margin-left: .4em;
+    margin-left: 1em;
     
 }
 p.description {
     font-family: serif;
     line-height: 1.3em;
-    margin-right: .4em;
+    margin-right: 1em;
     margin-bottom: .4em;
-    margin-left: .4em;
+    margin-left: 1em;
     
 }
 p.price {
