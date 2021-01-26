@@ -65,12 +65,12 @@ h2 {
     background-color: rgb(50,90,160);
     color: rgb(255,255,255);
     font-size: 1.2em;
-    margin-bottom: 1.3em;
-    padding-top: .5em;
-    padding-bottom: .5em;
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: .3em;
+    margin-bottom: 1.3em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 h3 {
     font-family: serif;
@@ -87,20 +87,21 @@ ul {
 h4 {
     font-family: sans-serif;
     text-transform: uppercase;
-    margin-bottom:.4em;
-    padding-right: 1em;
-    padding-left: 1em;
+    margin-right: .4em;
+    margin-bottom: .4em;
+    margin-left: .4em;
+    
 }
 p.description {
     font-family: serif;
-    margin-bottom: .4em;
-    padding-right: 1em;
-    padding-left: 1em;
     line-height: 1.3em;
+    margin-right: .4em;
+    margin-bottom: .4em;
+    margin-left: .4em;
     
 }
 p.price {
     font-family: sans-serif;
+    font-style: italic;
     margin-bottom: 1.2em;
-    font-style: italic
 }
