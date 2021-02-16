@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Menu</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>
+                    <a href="index.html"><img src="evolution-coffee-logo.png" alt="Evolution Coffee Logo" /></a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="location.html">Location</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <figure>
+                <img src="evolution-coffee-menu.jpg" alt="birdseye view of various coffee drinks" />
+            </figure>
+            <h2>Our Blends</h2>
+            <p>Choose a blend, then tell us what kind of milk and sweetness you'd like, on a scale of light, medium, and heavy</p>
+            <ul class="sizes">
+                <li>Small/8oz: $3.00</li>
+                <li>Medium/12oz: $3:50</li>
+                <li>Large/16oz: $4.00</li>
+                <li>Coffee/lb: $18</li>
+            </ul>
+            <h3>Darker Blends</h3>
+            <ul>
+                <li>
+                    <h4>Great Outdoors</h4>
+                    <p class="description">Rich, Dark Chocolate, Buttery Roast, Smokey, Syrupy</p>
+                </li>
+                <h4>Aromatic Arabic</h4>
+                <p class="description">Smoke, Walnut, Earth</p>
+                <li>
+                    <h4>Ether</h4>
+                    <p class="description">Toffee, Cherry, Cinnamon</p>
+                </li>
+                <li>
+                    <h4>Jacob's Wonderbar</h4>
+                    <p class="description">Dark Chocolate, Smoke, Nuts</p>
+                </li>
+                <li>
+                    <h4>Julie's Ultimate</h4>
+                    <p class="description">Toast, Berry, Vanilla</p>
+                </li>
+            </ul>
+
+            <h3>Medium Blends</h3>
+            <ul>
+                <li>
+                    <h4>Philharmonic</h4>
+                    <p class="description">Cardamom, Maple, Earth</p>
+                </li>
+                <li>
+                    <h4>Philtered Soul</h4>
+                    <p class="description">Hazelnut, Chocolate</p>
+                </li>
+                <li>
+                    <h4>Greater Alarm</h4>
+                    <p class="description">Cashew, Pineapple, Cocoa</p>
+                </li>
+                <li>
+                    <h4>Silken Splendor</h4>
+                    <p class="description">Toffee, Citrus</p>
+                </li>
+            </ul>
+
+            <h3>Lighter Blends</h3>
+            <ul>
+                <li>
+                    <h4>Tesora</h4>
+                    <p class="description">Caramel, Nuts, Butter</p>
+                </li>
+                <li>
+                    <h4>Ambrosia Coffee of God</h4>
+                    <p class="description">Blackberry, Grape, Toast</p>
+                </li>
+                <li>
+                    <h4>New Manhattan</h4>
+                    <p class="description">Citrus, Cherry, Floral</p>
+                </li>
+                <li>
+                    <h4>Dancing Water</h4>
+                    <p class="description">Blackberry, Grape, Toast</p>
+                </li>
+            </ul>
+
+            <h2>Our Creations</h2>
+            <ul>
+                <li>
+                    <h4>Iced Mint Mojito +$1</h4>
+                    <p class="description">Our signature iced drink crafted with fresh mint. Ask for it the House Way.</p>
+                </li>
+                <li>
+                    <h4>Iced Gingersnap +$1</h4>
+                    <p class="description">Creamy iced coffee with cinnamon, nutmeg and clove spices</p>
+                </li>
+                <li>
+                    <h4>Iced Coffee Rose +$1</h4>
+                    <p class="description">Smooth and sweet iced coffee, topped with subtle rose cream</p>
+                </li>
+                <li>
+                    <h4>Mission Cold Brew +$1</h4>
+                    <p class="description">Our silky smooth cold brew with rich malt caramel notes</p>
+                </li>
+                <li>
+                    <h4>Mocha Tesora +$1</h4>
+                    <p class="description">A velvety coffee-based treat with lightly sweetened cocoa</p>
+                </li>
+                <h4>Ecstatic Iced Coffee</h4>
+                <p class="description">Our bold and refreshing iced coffee, with sweet notes of milk chocolate</p>
+                <li>
+                    <h4>Tesora</h4>
+                    <p class="description">Our original coffee blend. Try it with cream and honey. Perfect for latte drinkers!</p>
+                </li>
+                <li>
+                    <h4>Jacob's Wonderbar</h4>
+                    <p class="description">Our most loved dark roast. Recommended straight up or with cream for cappuccino fans</p>
+                </li>
+
+                <li>
+                    <h4>Philtered Soul</h4>
+                    <p class="description">Our unique hazelnut blend. Try it sweet and creamy. Tastes like a flavored latte.</p>
+                </li>
+            </ul>
+
+            <h2>Our Pairings</h2>
+            <h3>Savory</h3>
+            <ul>
+                <li>
+                    <h4>Fresh Cucumber + Tomato Bagel</h4>
+                    <p class="description">toasted with cream cheese, olive oil, + sea salt</p>
+                    <p class="price">$5.50</p>
+                    <p class="calories">520 cals</p>
+                </li>
+                <li>
+                    <h4>Mediterranean Avocado + Egg Toast</h4>
+                    <p class="description">with egg, zatar, olive oil, sea salt, pepper, + chives</p>
+                    <p class="price">$5.50</p>
+                    <p class="calories">370 cals</p>
+                </li>
+                <li>
+                    <h4>Hummus + Fresh Tomato Toast</h4>
+                    <p class="description">with feta, sumac, sea salt, + chives</p>
+                    <p class="price">$4.50</p>
+                    <p class="calories">290 cals</p>
+                </li>
+                <li>
+                    <h4>Labeh + Zatar Toast</h4>
+                    <p class="description">with cucumber + olive oil</p>
+                    <p class="price">$4.50</p>
+                    <p class="calories">380 cals</p>
+                </li>
+            </ul>
+            <h3>Sweet</h3>
+            <ul>
+                <li>
+                    <h4>Ricotta Honey Pistachio Toast</h4>
+                    <p class="description">with sea salt</p>
+                    <p class="price">$4.50</p>
+                    <p class="calories">460 cals</p>
+                </li>
+                <li>
+                    <h4>Almond Butter + Banana Toast</h4>
+                    <p class="description">with honey + sea salt</p>
+                    <p class="price">$5.50</p>
+                    <p class="calories">500 cals</p>
+                </li>
+                <li>
+                    <h4>Honey Fig Greek Yogurt</h4>
+                    <p class="description">with pistachios</p>
+                    <p class="price">$5.00</p>
+                    <p class="calories">260 cals</p>
+                </li>
+                <li>
+                    <h4>Banana Walnut Greek Yogurt</h4>
+                    <p class="description">with honey</p>
+                    <p class="price">$5.00</p>
+                    <p class="calories">310 cals</p>
+                </li>
+            </ul>
+
+            <footer>
+                <p>Contact: 408.833.9391</p>
+                <p>Hours: Tuesday-Saturday 7:30AM-8PM</p>
+            </footer>
+        </div>
+    </body>
+</html>
