@@ -64,6 +64,7 @@ ul.location {
 li.location{
     list-style: none;
     padding-bottom: .5em;
+    font-size: .8em;
 }
 
 p.location, p.about {
