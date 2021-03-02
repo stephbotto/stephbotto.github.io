@@ -50,25 +50,23 @@ figcaption{
   margin: .2em 0 1.5em;
 }
 
-
 h2.location, h2.about{
     text-transform: uppercase;
     margin-top: 1em;
 }
 
 ul.location {
-    margin: 1em 0
+    margin: 1em 0;
 }
 
 li.location{
     list-style: none;
-    padding-bottom: .5em
+    padding-bottom: .5em;
 }
 
 p.location, p.about {
     margin: 1em 0;
 }
-
 
 ul.sizes {
     list-style-type: none;
@@ -82,7 +80,7 @@ ul.sizes {
 
 li.sizes {
     padding: .5em;
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 
@@ -123,7 +121,7 @@ p.price {
     color: rgb(248,150,60);
     max-width: 8em;
     padding: .2em;
-    font-weight: bold
+    font-weight: bold;
 }
 
 p.price, p.calories {
@@ -134,13 +132,9 @@ p.calories {
     font-style:oblique;
 }
 
-
 footer {
     background-color: rgb(0,0,0);
     color: rgb(255,255,255);
     padding: .5em 1em;
     margin: 1em 0;
 }
-
-
-    
