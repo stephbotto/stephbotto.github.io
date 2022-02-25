@@ -1,121 +1,144 @@
 /*CSS document*/
 
 body {
-    background-color: rgba(0,0,0,0.9);
-    color: white;
-    font-family: roboto,sans-serif;
-	font-weight: 400;
-	font-style: normal;
+  background-color: #1f1f1f;
 }
-
 
 div.container {
-    max-width: 40em;
-    margin: auto;
+  max-width: 80em;
+  margin: auto;
 }
-    
 
 figure {
-    margin: 0;
+  margin: 5em auto 1em;
 }
 
+.mainstory {
+  margin: auto;
+}
 
 img {
-    width: 100%;
-    margin:1em auto;
+  width: 100%;
 }
-
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 400;
+    
 }
 
+nav ul li {
+  display: inline;
+  margin: 1em;
+    
+}
+
+h3 {
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  margin-top: .5em;
+  margin-bottom: 0.3em;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: montserrat, sans-serif;
+  font-weight: 800em;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: 3em;
+  text-decoration: none;
+  margin-bottom: 0.2em;
+  color: #ffffff;
+}
+
+h1 {
+  max-width: 10em;
+  margin: 1em auto;
+}
+
+p {
+  font-family: montserrat light, sans-serif;
+  font-size: 1em;
+  letter-spacing: .05em;
+  margin-top: auto;
+  color:#ffffff;
+}
+
+figcaption {
+  font-family: montserrat, sans-serif;
+  font-style: italic;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+    color:#ffffff;
+}
 
 a:link {
   text-decoration: none;
 }
 
-
-/*Article titles*/
-h3 {
-    font-family: roboto, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1.5em;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight:700;
-    font-style:oblique;
-    margin: .3em auto;
-
-   
-}
-
-/* main story titles*/
-h2 {
-    font-family: roboto, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 2em;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight:700;
-    font-style:oblique;
-    margin: 1em auto auto;
-}
-
-/*Body text*/
-p {
-    font-family: poppins, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 1em;
-    color:  rgba(255,255,255,1);
-    margin: 1em auto 2em;
-
-   
-}
-
-figcaption {
-    font-family: roboto, sans-serif;
-    font-style: oblique;
-    font-weight: 100;
-    font-size: .75em;
-    color: #ffffff; 
-    margin: auto auto 2em;
-}
-
-nav ul li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 1em;
-    margin-left: 1.3em;
-    font-family: roboto, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.0em;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #ffee00;
-}
-
 footer {
-    margin-top: 5em;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 3em;
 }
 
-footer p {
-    text-align: center;
+@media screen and (min-width: 60em) {
+  div.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  header {
+    grid-column: 1/3;
+  }
+
+  main {
+    grid-column: 1/2;
+  }
+
+  div.below {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 1em;
+  }
+
+  aside {
+    grid-column: 2/3;
+    margin: 0em 2em;
+  }
+
+  div.suggested {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 1em;
+  }
+}
+
+article {
+  grid-column: 1/3;
+  max-width: 50em;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a p {
+ color: #ffffff;
+}
+
+li a {
+  color: #ffffff;
 }
