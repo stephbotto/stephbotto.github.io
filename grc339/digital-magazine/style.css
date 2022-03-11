@@ -1,144 +1,285 @@
 /*CSS document*/
 
 body {
-  background-color: #1f1f1f;
+    margin: 1em 1em 1em 1em;
+    background-color: #1f1f1f;
 }
 
 div.container {
-  max-width: 80em;
-  margin: auto;
+    max-width: 65em;
+    margin: auto;
+    margin-top: 2em;
 }
 
 figure {
-  margin: 5em auto 1em;
+    margin: 0em 0em 1em 0em;
 }
 
-.mainstory {
-  margin: auto;
+figure.gallery {
+    margin: 0em 0em 1em 0em;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: left 0.5s, opacity 0.5s;
 }
 
 img {
-  width: 100%;
+    width: 100%;
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-  font-family: montserrat, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  font-weight: 400;
+    list-style-type: none;
+    padding: 0;
+    margin:auto;
+    font-size: 1.3em;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a:hover{
+    color: #faed27 ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 1em;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+div.logo{
+    width: 25%;
+}
+
+input.gallery{
+    display: none;
+}
+
+h2,h3, h4, nva{
+    text-decoration: none;
+    font-family: montserrat semibold,sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    margin-top: 1em;
+}
+
+
+section a{
+    text-decoration: none;
+    padding-top: 0;
+    margin-top: 0;
     
 }
 
-nav ul li {
-  display: inline;
-  margin: 1em;
+
+p{
+    font-family: urw-form, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #ffffff;
+}
+
+
+footer{
+    margin-top: 0;
+}
+
+
+figcaption{
+    font-family: montserrat light,sans-serif;
+    font-size: .8em;
+    font-style: italic;
+    margin-bottom:2em;
+    color: #ffffff;
+}
+
+nav.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.2em;
+}
+
+main.gallery{
+    position: relative;
+    overflow: #ddd;
+    padding-bottom: calc(72% + .1em);
+    margin-right: 0em;
+}
+
+section.tertiary{
+    margin-bottom: 2em;
+}
+
+section.secondary{
+    background: #000000;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+section.mainstory{
+    background: #000000;
+    padding: 1em 1em 0 1em;
+    margin-bottom: auto;
+}
+
+h3.story{
+    padding: 0em 1em 0em 1em;
+    text-transform: uppercase;
+}
+
+p.story{
+    padding: 0em 1em 1.5em 1em;
+}
+article{
+    margin: 0em 2em 0em 0em;
+}
+
+h2.article{
+    font-size: 2.5em;
+    margin: auto;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+    text-transform: uppercase;
+}
+
+h4{
+    font-family: urw-form,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1em;
+    color: #ffffff;
+    padding-left: 1em;
+}
+
+aside.mainstory{
+    margin-top: 3em;
+}
+
+
+@media screen and (min-width:60em){
+    div.container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 2em;
+    }
     
+    header{
+        grid-column: 1/3;
+        margin-bottom: 1em;
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        grid-column: 1/2;
+        margin: 0em 2em 3em 0em;
+    }
+    
+    section.mainstory{
+        grid-column: 1/4;
+    }
+    
+    
+    aside{
+        grid-column: 2/3;
+    }
+  
+    footer{
+        grid-column: 1/3;
+    }
+    
+    h3.aside{
+        margin-top:0em;
+        text-transform: uppercase;
+    }
+       
+    h4.aside{
+        margin-top: 6.3em;
+        text-transform: uppercase;
+    }
+   nav.gallery{
+        grid-column: 1/2;
+    }
+    
+    figcaption.gallery{
+        color: #ffffff;
+    }
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1;
 }
 
-h3 {
-  font-family: montserrat, sans-serif;
-  font-weight: 800;
-  font-style: oblique;
-  text-transform: uppercase;
-  font-size: 1.8em;
-  margin-top: .5em;
-  margin-bottom: 0.3em;
-  color: #ffffff;
-}
 
-h2 {
-  font-family: montserrat, sans-serif;
-  font-weight: 800em;
-  text-transform: uppercase;
-  font-style: oblique;
-  font-size: 3em;
-  text-decoration: none;
-  margin-bottom: 0.2em;
-  color: #ffffff;
-}
-
-h1 {
-  max-width: 10em;
-  margin: 1em auto;
-}
-
-p {
-  font-family: montserrat light, sans-serif;
+button {
+  background-color: #faed27;
+  border: none;
+  color: #000000;
+  text-align: left;
   font-size: 1em;
-  letter-spacing: .05em;
-  margin-top: auto;
-  color:#ffffff;
-}
-
-figcaption {
+  font-weight: 800;
   font-family: montserrat, sans-serif;
-  font-style: italic;
-  font-size: 0.8em;
-  margin-bottom: 1em;
-    color:#ffffff;
+  text-transform: uppercase;
+  padding: 1.5em;
+margin-top: 1.5em;
 }
 
-a:link {
-  text-decoration: none;
+section.form {
+  margin: 0em 0em 2em 0em;
+    padding: inherit;
+    color: #ffffff;
 }
 
-footer {
-  text-align: center;
-  font-size: 0.8em;
-  margin-top: 3em;
+section.order-form{
+    padding: inherit;
+    color: #ffffff;
 }
 
-@media screen and (min-width: 60em) {
-  div.container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
 
-  header {
-    grid-column: 1/3;
-  }
-
-  main {
-    grid-column: 1/2;
-  }
-
-  div.below {
-    grid-column: 1/2;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0 1em;
-  }
-
-  aside {
-    grid-column: 2/3;
-    margin: 0em 2em;
-  }
-
-  div.suggested {
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0 1em;
-  }
+textarea {
+  min-width: 60em;
+  min-height: 5em;
+  display: block;
+  font-family: montserrat, sans-serif;
+  font-weight: 200;
+font-style: normal;
+    display: flex;
+	flex-wrap: wrap;
+}
+main.subscription {
+  grid:none;
+}
+label {
+flex: 1 0 10em;
+font-family: montserrat, sans-serif;
+color: #ffffff;
+font-weight: 200;
+font-style: normal; 
+}
+input[type="checkbox"] {
+    display: inline-block;
 }
 
-article {
-  grid-column: 1/3;
-  max-width: 50em;
-  margin: auto;
+input[type="radio"] {
+    display: none;
 }
 
-a {
-  text-decoration: none;
-}
-
-a p {
- color: #ffffff;
-}
-
-li a {
-  color: #ffffff;
+h3, h4.subscription{
+    text-transform:inherit;
 }
